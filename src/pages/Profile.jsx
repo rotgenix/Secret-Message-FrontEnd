@@ -70,10 +70,10 @@ const Profile = () => {
                         },
                         withCredentials: true,
                     });
-                    if (data.profile.message.length > 0) {
-                        setMessage(data.profile.message[0].message);
+                    if (data.profile[0].message.length > 0) {
+                        setMessage(data.profile[0].message[0].message);
                     }
-                    setName(data.profile.name);
+                    setName(data.profile[0].name);
                     setLoader(false);
                 }
                 getProfile();
