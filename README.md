@@ -55,14 +55,16 @@ Install the project dependencies
 ```bash
   npm i
 ```
+
+- Now go to the src > main.jsx 
+- Now comment the line no. 13
+- Now uncomment the line no. 10
+
+
 Now run the command to start the project
 
 ```bash
   npm run dev
 ```
-
-- Now go to the src > main.jsx 
-- Now comment the line no. 13
-- Now uncomment the line no. 10
 
 Now open the link in your browser http://localhost:5173/
