@@ -6,7 +6,10 @@ import './index.css'
 import { createContext } from 'react';
 
 export const Context = createContext();
+// Local Server
 // export const server = 'http://localhost:5000';
+
+// Live Server
 export const server = 'https://secretmessagebackend.onrender.com';
 
 const AppWrapper = () => {
